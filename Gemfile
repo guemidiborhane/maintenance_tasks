@@ -24,3 +24,5 @@ gem "sprockets-rails"
 gem "sqlite3"
 gem "webdrivers", require: false
 gem "yard"
+
+gem "job-iteration", github: "https://github.com/Shopify/job-iteration/pull/190"

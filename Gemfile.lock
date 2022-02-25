@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/Shopify/job-iteration.git
+  revision: fa46022a399430b46a6ea8b1da325894a86ab9bc
+  branch: refs/pull/190/head
+  specs:
+    job-iteration (1.3.5)
+      activejob (>= 5.2)
+
 PATH
   remote: .
   specs:
@@ -101,8 +109,6 @@ GEM
     i18n (1.9.1)
       concurrent-ruby (~> 1.0)
     io-wait (0.2.1)
-    job-iteration (1.3.5)
-      activejob (>= 5.2)
     loofah (2.14.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -239,6 +245,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  job-iteration!
   maintenance_tasks!
   mocha
   net-smtp
